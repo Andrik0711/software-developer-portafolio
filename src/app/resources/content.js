@@ -25,11 +25,6 @@ const social = [
     link: "https://www.linkedin.com/in/jos%C3%A9-andrik-mart%C3%ADnez-rodr%C3%ADguez-756a08228/",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
-  },
-  {
     name: "Email",
     icon: "email",
     link: "mailto:mtzrdz19.jandrik71@gmail.com",
@@ -215,4 +210,26 @@ const work = {
   // All projects will be listed on the /home and /work routes
 };
 
-export { person, social, home, about, work };
+const blog = {
+  label: "Blog",
+  title: "Writing about design and tech...",
+  description: `Read what ${person.name} has been up to recently`,
+  // Create new blog posts by adding a new .mdx file to app/blog/posts
+  // All posts will be listed on the /blog route
+};
+
+const gallery = {
+  label: "Gallery",
+  title: "My photo gallery",
+  description: `A photo collection by ${person.name}`,
+  // Images from https://pexels.com
+  images: [
+    {
+      src: "/images/gallery/img-01.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+  ],
+};
+
+export { person, social, home, about, work , blog, gallery };
