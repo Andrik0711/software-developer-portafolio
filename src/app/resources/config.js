@@ -12,6 +12,8 @@ const routes = {
 // Set password in the .env file, refer to .env.example
 const protectedRoutes = {
   "/work/uber-app.mdx": true,
+  "/work/restaurant-app.mdx": true,
+  "/work/adventure-aide.mdx": true,
 };
 
 const style = {
