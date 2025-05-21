@@ -11,6 +11,7 @@ const skills = [
   { title: "Jira", description: "A project management software tailored for agile methodologies, enabling efficient tracking of tasks, issues, and workflows.", image: "/images/jira.png" },
   { title: "Trello", description: "A visual tool for organizing tasks, projects, and workflows using drag-and-drop boards and cards.", image: "/images/trello.png" },
   { title: "Django", description: "A high-level Python web framework for building scalable and secure web applications quickly and efficiently.", image: "/images/django.png" },
+  { title: "Flask", description: "A lightweight Python web framework that provides the essentials for building web applications with flexibility and simplicity.", image: "/images/flask.png" },
   { title: "Laravel", description: "A PHP framework designed for robust web application development, emphasizing elegant syntax and scalability.", image: "/images/laravel.png" },
   { title: "Bootstrap", description: "A CSS framework for creating responsive and mobile-first web designs with prebuilt components and templates.", image: "/images/bootstrap.png" },
   { title: "TailwindCSS", description: "A utility-first CSS framework for designing custom web interfaces quickly and efficiently.", image: "/images/tailwind.png" },

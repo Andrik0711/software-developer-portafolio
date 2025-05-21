@@ -11,6 +11,7 @@ const skills = [
   { title: "Jira" },
   { title: "Trello" },
   { title: "Django" },
+  { title: "Flask" },
   { title: "Laravel" },
   { title: "Bootstrap" },
   { title: "TailwindCSS" },
@@ -33,7 +34,7 @@ export default function TechnicalCarousel() {
   return (
     <div className={styles.carouselContainer}>
       {/* Botón Minimalista (ícono de ojo) */}
-      <button className={styles.showListButton} onClick={toggleSkillsList}>
+      <button type="button" className={styles.showListButton} onClick={toggleSkillsList}>
         {showSkillsList ? "👁️" : "👁️‍🗨️"}
       </button>
 

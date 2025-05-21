@@ -66,7 +66,7 @@ const about = {
     description: (
       <>
         Andrik is a Software Developer with a solid foundation in full-stack development and a passion for crafting innovative web and mobile solutions.
-        I specialize in using technologies like Django, Laravel, Python, PHP and PostgreSQL to deliver scalable and efficient applications.
+        I specialize in using technologies like Django, Flask, Laravel, Python, PHP and PostgreSQL to deliver scalable and efficient applications.
         With hands-on experience from professional roles and academic projects, I thrive on solving complex challenges and
         collaborating with teams to create impactful results.
       </>
@@ -81,26 +81,11 @@ const about = {
         timeframe: "August 2024 - Present",
         role: "Junior Software Developer",
         achievements: [
-          <>
-            Actively contribute to the development of complex web applications as part of a multidisciplinary team, focused
-            on improving system scalability, performance, and robustness.
-          </>,
-          <>
-            Participate in version control tasks, including system version updates, branch creation, change management,
-            and commit reversion, ensuring an efficient workflow.
-          </>,
-          <>
-            Designed and implemented innovative modules using a diverse tech stack including Django, Python, Bootstrap,
-            PostgreSQL, JavaScript, CSS, HTML, and jQuery, achieving functional and sustainable solutions.
-          </>,
-          <>
-            Collaborate directly with the development team and the manager to identify and apply innovative solutions
-            that enhance system functionality and product quality.
-          </>,
-          <>
-            Attend meetings with clients alongside the team to clarify requirements, provide technical explanations, and
-            propose functional improvements, strengthening the client-developer relationship.
-          </>
+          "Actively contribute to the development of complex web applications as part of a multidisciplinary team, focused on improving system scalability, performance, and robustness.",
+          "Participate in version control tasks, including system version updates, branch creation, change management, and commit reversion, ensuring an efficient workflow.",
+          "Designed and implemented innovative modules using a diverse tech stack including Django, Flask, Python, Bootstrap, PostgreSQL, JavaScript, CSS, HTML, jQuery and APIs, achieving functional and sustainable solutions.",
+          "Collaborate directly with the development team and the manager to identify and apply innovative solutions that enhance system functionality and product quality.",
+          "Attend meetings with clients alongside the team to clarify requirements, provide technical explanations, and propose functional improvements, strengthening the client-developer relationship."
         ],
         images: [],
       },
@@ -109,22 +94,11 @@ const about = {
         timeframe: "January 2024 - April 2024",
         role: "Junior FullStack Developer",
         achievements: [
-          <>
-            Developed modules for the institutional website, optimizing internal processes and improving user experience.
-          </>,
-          <>
-            Implemented and maintained the academic module using technologies such as CakePHP, Bootstrap, JavaScript,
-            PHP, MySQL, HTML, CSS, and jQuery.
-          </>,
-          <>
-            Integrated external services to expand system functionality.
-          </>,
-          <>
-            Reduced site load times by 30% and improved security by implementing middleware.
-          </>,
-          <>
-            Performed database updates and continuous improvements to the user interface and experience.
-          </>
+          "Developed modules for the institutional website, optimizing internal processes and improving user experience.",
+          "Implemented and maintained the academic module using technologies such as CakePHP, Bootstrap, JavaScript, PHP, MySQL, HTML, CSS, and jQuery.",
+          "Integrated external services to expand system functionality.",
+          "Reduced site load times by 30% and improved security by implementing middleware.",
+          "Performed database updates and continuous improvements to the user interface and experience."
         ],
         images: [],
       },
@@ -133,24 +107,57 @@ const about = {
         timeframe: "January 2023 - April 2023",
         role: "FullStack Developer Intern",
         achievements: [
-          <>
-            Designed and developed two systems: a Point of Sale and an Inventory System, focused on optimizing operational
-            and administrative management.
-          </>,
-          <>
-            Designed system layouts using advanced tools such as Figma and Adobe XD, ensuring an intuitive and professional interface.
-          </>,
-          <>
-            Built an optimized database, focused on scalability and high performance to support future growth.
-          </>,
-          <>
-            Developed systems using Laravel 10, MySQL, Tailwind CSS, CSS, HTML, JavaScript, and PHP, achieving
-            functional and efficient applications.
-          </>,
-          <>
-            Worked directly with the client to fully understand requirements and translate them into effective technical
-            solutions.  
-          </>
+            "Designed and developed two systems: a Point of Sale and an Inventory System, focused on optimizing operational and administrative management.",
+            "Designed system layouts using advanced tools such as Figma and Adobe XD, ensuring an intuitive and professional interface.",
+            "Built an optimized database, focused on scalability and high performance to support future growth.",
+            "Developed systems using Laravel 10, MySQL, Tailwind CSS, CSS, HTML, JavaScript, and PHP, achieving functional and efficient applications.",
+            "Worked directly with the client to fully understand requirements and translate them into effective technical solutions."
+        ],
+        images: [],
+      },
+      {
+        company: "Polytechnic University of Victoria",
+        timeframe: "November 2023",
+        role: "Mobile App Project Participant",
+        achievements: [
+          "Actively participated in the design and development of a mobile application capable of identifying five types of food, focused on providing accurate and reliable results.",
+          "Implemented technical solutions using Python, Android Studio, and Kotlin, achieving over 90% detection accuracy.",
+          "Gained experience solving problems under pressure and tight deadlines, collaborating effectively with the team in challenging environments."
+        ],
+        images: [],
+      },
+      {
+        company: "Polytechnic University of Victoria",
+        timeframe: "March 2023",
+        role: "Web Development Hackathon Participant",
+        achievements: [
+          "Collaborated in a team to design and develop a functional web application in less than 48 hours.",
+          "Implemented technical solutions using Django and PostgreSQL, optimizing the prototype's speed and functionality.",
+          "Gained hands-on experience in problem-solving under pressure and collaborative work in competitive environments."
+        ],
+        images: [],
+      },
+      {
+        company: "Polytechnic University of Victoria",
+        timeframe: "September 2022 – December 2022",
+        role: "Academic Platform Project Leader",
+        achievements: [
+          "Coordinated a team of five developers to build an academic platform from scratch.",
+          "Designed the project structure and defined main modules using Laravel and MySQL.",
+          "Facilitated weekly meetings to review progress and resolve technical issues."
+        ],
+        images: [],
+      },
+      {
+        company: "Polytechnic University of Victoria",
+        timeframe: "September 2021 - December 2021",
+        role: "FullStack Developer Intern",
+        achievements: [
+          "Developed complementary modules for an in-development tool, optimizing internal processes and improving code scalability and quality.",
+          "Implemented new features and performed bug fixes using technologies such as Python and MySQL.",
+          "Integrated automated services to increase system efficiency.",
+          "Improved code performance and readability through optimization and refactoring practices.",
+          "Interpreted and understood requirements and system functionality."
         ],
         images: [],
       },
