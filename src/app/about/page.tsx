@@ -243,7 +243,7 @@ export default function About() {
                     </Column>
                     {experience.images.length > 0 && (
                       <Flex fillWidth paddingTop="m" paddingLeft="40" wrap>
-                        {experience.images.map((image) => (
+                        {experience.images.map((image: { src: string; alt: string; width?: number; height?: number }) => (
                           <Flex
                             key={image.src || image.alt}
                             border="neutral-medium"
@@ -257,7 +257,7 @@ export default function About() {
                               enlarge
                               radius="m"
                               //@ts-ignore
-                              sizes={image.width.toString()}
+                              sizes={image.width?.toString()}
                               //@ts-ignore
                               alt={image.alt}
                               //@ts-ignore
